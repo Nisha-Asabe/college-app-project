@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".aboutus"
+        android:orientation="vertical"
+        >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="242dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/logo"></ImageView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:lineHeight="25dp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.1"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#C205E3"
+                    android:text="Government Residence Women Polytechnic,Tasgaon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+
+
+        </TableLayout>
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Civil Engineering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+        <TextView
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineHeight="40dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:text="@string/civilinfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/civilhod"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"></ImageView>
+        <TextView
+            android:textStyle="bold"
+            android:text="Jadhav mam HOD Civil"
+            android:layout_gravity="center"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="20dp"
+            android:justificationMode="inter_word"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineHeight="40dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            android:text="@string/civilinfo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:src="@drawable/civil_faculty"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="287dp"
+            android:src="@drawable/civil_lab"></ImageView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:padding="12dp"
+            android:background="#FFEB3B"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Developed by : Student 1 , Student 2 , Student 3 , Student 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".loginscreen"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:src="@drawable/loginbanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageView>
+
+        <EditText
+            android:layout_marginTop="-15dp"
+            android:id="@+id/login_email"
+            android:background="@drawable/custom_edittext"
+            android:textSize="20dp"
+            android:padding="18dp"
+            android:hint="Enter Your Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            ></EditText>
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/login_password"
+            android:background="@drawable/custom_edittext"
+            android:textSize="20dp"
+            android:padding="18dp"
+            android:hint="Enter Your Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="20dp"
+            ></EditText>
+        <Button
+            android:id="@+id/login_button"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:padding="18dp"
+            android:text="Login"
+            android:textSize="20dp"
+            ></Button>
+        <TextView
+            android:id="@+id/logintosignup"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="New User ? Signup Here !"
+            android:letterSpacing="0.3"
+            android:fontFamily="sans-serif-black"
+            ></TextView>
+
+    </LinearLayout>
+</ScrollView>

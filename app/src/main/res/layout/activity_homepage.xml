@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <ImageView
+                    android:layout_width="242dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:src="@drawable/logo"></ImageView>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:lineHeight="25dp"
+                    android:gravity="center"
+                    android:fontFamily="sans-serif-black"
+                    android:letterSpacing="0.1"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#C205E3"
+                    android:text="Government Residence Women Polytechnic,Tasgaon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+            </TableRow>
+
+
+        </TableLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:src="@drawable/homepagebanner"></ImageView>
+ <HorizontalScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+    <TableLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <Button
+                android:id="@+id/aboutus"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_homepage"
+                android:text="About"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                ></Button>
+            <Button
+                android:id="@+id/courses"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_homepage"
+                android:text="Courses"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                ></Button>
+            <Button
+                android:id="@+id/contactus"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_homepage"
+                android:text="Contact"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                ></Button>
+            <Button
+                android:id="@+id/admission"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_homepage"
+                android:text="Admission"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                ></Button>
+            <Button
+                android:id="@+id/facilities"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_homepage"
+                android:text="Facilities"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                ></Button>
+            <Button
+                android:id="@+id/downloads"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/custom_button_homepage"
+                android:text="Downloads"
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                ></Button>
+        </TableRow>
+    </TableLayout>
+ </HorizontalScrollView>
+<TextView
+
+    android:lineHeight="20dp"
+    android:text="@string/about"
+    android:textSize="15dp"
+    android:justificationMode="inter_word"
+    android:layout_margin="20dp"
+    android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/abouttext"
+            android:lineHeight="20dp"
+            android:text="read more"
+            android:textSize="15dp"
+            android:justificationMode="inter_word"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-20dp"
+            android:textColor="#DF0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <TableLayout
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                >
+
+                <ImageView
+
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/pic1"></ImageView>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Name"
+                    ></TextView>
+                <ImageView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="90dp"
+                    android:layout_width="90dp"
+                    android:src="@drawable/pic2"
+                    ></ImageView>
+                <TextView
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:text="Name"
+                    ></TextView>
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="15dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <ImageView
+
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/pic4"></ImageView>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/pic3"></ImageView>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="Name"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+
+            </TableRow>
+
+        </TableLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/facility"
+        android:layout_weight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_button_homepage"
+        android:text="College Facilities"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        ></Button>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Latest Events"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#D51757"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+    <TableLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/eventpic"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+                ></ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:src="@drawable/eventpic"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+                ></ImageView>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="Apply Now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></Button>
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="Apply Now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></Button>
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:background="#FFEB3B"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="Developed by : Student 1 , Student 2 , Student 3 , Student 4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    </ScrollView>
+

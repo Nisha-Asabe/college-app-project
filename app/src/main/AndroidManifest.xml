@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegeappproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".facility"
+            android:exported="true" />
+        <activity
+            android:name=".downloads"
+            android:exported="true" />
+        <activity
+            android:name=".admission"
+            android:exported="true" />
+        <activity
+            android:name=".mecheng"
+            android:exported="true" />
+        <activity
+            android:name=".computereng"
+            android:exported="true" />
+        <activity
+            android:name=".civileng"
+            android:exported="true" />
+        <activity
+            android:name=".courses"
+            android:exported="true" />
+        <activity
+            android:name=".gallery"
+            android:exported="true" />
+        <activity
+            android:name=".contactus"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:exported="true" />
+        <activity
+            android:name=".homepage"
+            android:exported="true" />
+        <activity
+            android:name=".signupscreen"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen"
+            android:exported="true" />
+        <activity
+            android:name=".userselections"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
